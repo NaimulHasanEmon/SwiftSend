@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Connect Now</title>
+    <style>
+        .text-gradient {
+            background: linear-gradient(to right, #6574F7,  #78c4f7, #0ce692);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: Mulish;
+            font-size: 64px;
+            font-weight: 900;
+            line-height: 86px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <div class="flex h-screen">
+
+                <!-- Photo section -->
+                <div class="w-1/2 flex flex-col justify-center">
+
+                    <!-- Text Section -->
+                    <section class="text-center py-2 mb-5">
+                        <h1 class="text-5xl font-bold text-gradient">SwiftSend</h1>
+                        <p class="text-xl">The best choice to connect all your mobile wallets</p>
+                    </section>
+
+                    <!-- Photo Carousel -->
+                    <div class="carousel text-center items-center h-44 w-full">
+                        <div id="item1" class="carousel-item h-full w-full">
+                            <img src="Images/all_mobile_banking.png" />
+                        </div>
+                        <div id="item2" class="carousel-item h-full w-full">
+                            <img src="Images/bkash.jpg" />
+                        </div>
+                        <div id="item3" class="carousel-item h-full w-full">
+                            <img src="Images/nagad.jpg" />
+                        </div>
+                        <div id="item4" class="carousel-item h-screen w-full">
+                            <img src="Images/rocket.png" />
+                        </div>
+                        <div id="item5" class="carousel-item h-full w-full">
+                            <img src="Images/upay.png" />
+                        </div>
+                    </div>
+                    <div class="flex justify-center w-full py-2 gap-2">
+                        <a href="#item1" class="btn btn-xs">1</a>
+                        <a href="#item2" class="btn btn-xs">2</a>
+                        <a href="#item3" class="btn btn-xs">3</a>
+                        <a href="#item4" class="btn btn-xs">4</a>
+                        <a href="#item5" class="btn btn-xs">5</a>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="grid flex-grow bg-base-300 box place-items-center">
+                    <div class="hero min-h-screen bg-white">
+                        <div class="hero-content flex-col w-full">
+                            <div class="text-center lg:text-left">
+                                <h1 class="text-5xl text-center font-bold mb-6">Connect now!</h1>
+                            </div>
+                            <div class="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                                <form class="card-body">
+                                    <div class="form-control">
+                                        <input type="text" placeholder="Email address or phone number"
+                                            class="input input-bordered" required />
+                                    </div>
+                                    <div class="form-control">
+                                        <input type="password" placeholder="Password" class="input input-bordered"
+                                            required />
+                                        <label class="label">
+                                            <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                                        </label>
+                                    </div>
+                                    <div class="form-control w-full">
+                                        <button onclick="handleHomePage()" class="btn text-white text-xl bg-blue-500">Login</button>
+                                    </div>
+                                    <hr class="m-3">
+                                    <div class="flex justify-center">
+                                        <button class="btn text-white text-xl bg-green-500">Create new account</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <!-- Js -->
+    <script src="Js/script.js"></script>
+</body>
+
+</html>

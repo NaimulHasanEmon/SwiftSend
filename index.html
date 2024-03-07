@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,27 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Starting Page</title>
 </head>
+
 <body>
-    <div class="hero min-h-screen bg-base-200 ">
-        <div class="hero-content flex-col m-5 lg:flex-row-reverse">
-            <img src="Images/Girl.png"
-                class="max-w-screen-sm rounded-lg h-full" />
-            <div class="p-24">
-                <h1 class="text-5xl font-bold">SwiftSend
+    <div class="hero max-h-screen">
+        <div class="hero-content flex flex-col m-5 lg:flex-row">
+            <img src="Images/Girl.png" class="max-w-full lg:max-w-screen-sm rounded-lg lg:h-auto" />
+            <div class="p-4 lg:p-24">
+                <h1 class="text-3xl lg:text-5xl font-bold mb-4">SwiftSend
                     <br>
-                    <span>for easy transaction.</span>
+                    <span class="text-xl">for easy transaction.</span>
                 </h1>
-                <p class="py-6">The go-to for effortless transactions. Experience seamless transfers with our intuitive platform. Simplify your financial dealings with SwiftSend today!</p>
-                <button onclick="handleConnectNow()" id="btn-next" class="btn btn-accent text-xl">Get Started</button>
+                <p class="py-2 lg:py-6">The go-to for effortless transactions. Experience seamless transfers with our
+                    intuitive platform. Simplify your financial dealings with SwiftSend today!</p>
+                <button onclick="handleConnectNow()" id="btn-next" class="btn btn-accent text-base lg:text-xl">Get
+                    Started</button>
             </div>
         </div>
     </div>
 
+
     <!-- Js -->
     <script src="Js/script.js"></script>
 </body>
+
 </html>

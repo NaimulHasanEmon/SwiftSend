@@ -96,31 +96,86 @@
         <div class="hero min-h-screen bg-base-200">
             <div class="hero-content text-center">
                 <div class="max-w-md space-y-5">
-                    <h1 class="text-5xl font-bold">Transfer Money!</h1>
-                    <div>
-                        <div class="form-control">
-                            <label class="label cursor-pointer">
-                                <img src="Images/bkash_logo.png" alt="bKash" class="w-20">
-                                <input type="radio" name="radio-10" class="radio checked:bg-pink-600" checked />
-                            </label>
+                    <h1 class="text-5xl font-bold mb-10">Transfer Money!</h1>
+                    <div class="flex gap-28">
+                        <!-- From Section -->
+                        <div>
+                            <div class="bg-emerald-100 rounded-md p-2">
+                                <p class="text-3xl">
+                                    <b>From</b>
+                                </p>
+                            </div>
+                            <div>
+                                <div class="form-control">
+                                    <label class="label cursor-pointer">
+                                        <img src="Images/bkash_logo.png" alt="bKash" class="w-20">
+                                        <input type="radio" name="radio-10" class="radio checked:bg-pink-600" checked />
+                                    </label>
+                                </div>
+                                <div class="form-control">
+                                    <label class="label cursor-pointer">
+                                        <img src="Images/Nagad_logo.png" alt="Nagad" class="w-20">
+                                        <input type="radio" name="radio-10" class="radio checked:bg-orange-500" />
+                                    </label>
+                                </div>
+                                <div class="form-control">
+                                    <label class="label cursor-pointer">
+                                        <img src="Images/Rocket_logo.png" alt="Rocket" class="w-20">
+                                        <input type="radio" name="radio-10" class="radio checked:bg-fuchsia-600" />
+                                    </label>
+                                </div>
+                                <div class="form-control">
+                                    <label class="label cursor-pointer">
+                                        <img src="Images/Upay_logo.png" alt="Upay" class="w-20">
+                                        <input type="radio" name="radio-10" class="radio checked:bg-amber-300" />
+                                    </label>
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-control">
-                            <label class="label cursor-pointer">
-                                <img src="Images/Nagad_logo.png" alt="Nagad" class="w-20">
-                                <input type="radio" name="radio-10" class="radio checked:bg-orange-500" />
-                            </label>
+
+                        <!-- Transfer Logo -->
+                        <div class="flex justify-center text-center items-center">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                    class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" />
+                                </svg>
+                            </div>
                         </div>
-                        <div class="form-control">
-                            <label class="label cursor-pointer">
-                                <img src="Images/Rocket_logo.png" alt="Rocket" class="w-20">
-                                <input type="radio" name="radio-10" class="radio checked:bg-fuchsia-600" />
-                            </label>
-                        </div>
-                        <div class="form-control">
-                            <label class="label cursor-pointer">
-                                <img src="Images/Upay_logo.png" alt="Upay" class="w-20">
-                                <input type="radio" name="radio-10" class="radio checked:bg-amber-300" />
-                            </label>
+                        <!-- To section -->
+                        <div>
+                            <div class="bg-emerald-100 rounded-md p-2">
+                                <p class="text-3xl">
+                                    <b>To</b>
+                                </p>
+                            </div>
+                            <div>
+                                <div class="form-control">
+                                    <label class="label cursor-pointer">
+                                        <img src="Images/bkash_logo.png" alt="bKash" class="w-20">
+                                        <input type="radio" name="radio-11" class="radio checked:bg-pink-600" />
+                                    </label>
+                                </div>
+                                <div class="form-control">
+                                    <label class="label cursor-pointer">
+                                        <img src="Images/Nagad_logo.png" alt="Nagad" class="w-20">
+                                        <input type="radio" name="radio-11" class="radio checked:bg-orange-500" checked/>
+                                    </label>
+                                </div>
+                                <div class="form-control">
+                                    <label class="label cursor-pointer">
+                                        <img src="Images/Rocket_logo.png" alt="Rocket" class="w-20">
+                                        <input type="radio" name="radio-11" class="radio checked:bg-fuchsia-600" />
+                                    </label>
+                                </div>
+                                <div class="form-control">
+                                    <label class="label cursor-pointer">
+                                        <img src="Images/Upay_logo.png" alt="Upay" class="w-20">
+                                        <input type="radio" name="radio-11" class="radio checked:bg-amber-300" />
+                                    </label>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <input type="number" placeholder="Type your amount" class="input input-bordered input-md w-full max-w-full" />

@@ -7,6 +7,18 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Starting Page</title>
+    <style>
+        .text-gradient {
+            background: linear-gradient(to right, #6574f7, #78c4f7, #0ce692);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: Mulish;
+            font-size: 64px;
+            font-weight: 900;
+            line-height: 86px;
+        }
+    </style>
 </head>
 
 <body>
@@ -14,11 +26,10 @@
         <div class="hero-content flex flex-col m-5 lg:flex-row">
             <img src="Images/Girl.png" class="max-w-full lg:max-w-screen-sm rounded-lg lg:h-auto" />
             <div class="p-4 lg:p-24">
-                <h1 class="text-3xl lg:text-5xl font-bold mb-4">SwiftSend
-                    <br>
-                    <span class="text-xl">for easy transaction.</span>
+                <h1 class="text-3xl lg:text-5xl font-bold mb-4 text-gradient">SwiftSend
                 </h1>
-                <p class="py-2 lg:py-6">The go-to for effortless transactions. Experience seamless transfers with our
+                <h3 class="text-2xl">for easy transaction</h3>
+                <p class="lg:py-6">The go-to for effortless transactions. Experience seamless transfers with our
                     intuitive platform. Simplify your financial dealings with SwiftSend today!</p>
                 <button onclick="handleConnectNow()" id="btn-next" class="btn btn-accent text-base lg:text-xl">Get
                     Started</button>
